@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+/*body {
+    margin: 0;
+    font-family: poppins;
+}
+
+.container {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ededed;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 1rem;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #2f3e46;
+  }
+
+  .auth-btns {
+    display: flex;
+
+  }
+
+  .signin-btn,
+  .signup-btn {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .signin-btn:focus,
+  .signup-btn:focus {
+    outline: none;
+  }
+
+
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin: 1rem 0;
+    }
+    .auth-btns {
+      margin: 1rem 0;
+    }
+    .signin-btn,
+    .signup-btn {
+      margin: 0 1rem;
+    }
+  } */
+
+section {
+    margin-top: 50px;
+}
+
+.input-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+textarea {
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin: 0 30px 20px 30px;
+    width: 95%;
+}
+
+.main {
+  background-color: #bcbcbc;
+  margin: 20px 0 0 0;
+  padding: 10px 20px 20px 20px;
+
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.generate-button {
+  border: 2px solid #0046af;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: poppins;
+  color: #0046af;
+  font-size: larger;
+  background-color: white;
+}
+
+
+.generate-button:hover {
+  background-color: #0046af;
+  color: white;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #002a68;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#size {
+  
+}
